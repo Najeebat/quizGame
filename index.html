@@ -15,42 +15,29 @@
 </head>
 <body>
 
-<!-- <header>
-  <h1 class="bg-primary text-white text-center"> TAKE QUIZ TO WARM YOUR BRAIN</h1> 
-</header> -->
 
 <main class="">
-   <div class="container">
-
+   <div class="container index-container">
+       <h1>Quiz </h1>
        
-    <div class="content" >
-    
-         <div class="first-column ">
-          <h3>How much do you know html & CSS ?</h3>
-
-     <div id="question" class="question">    
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-           Voluptate dolores est dolorem provident, temporibus ?
-       </p>
+     <div id="question" class="question" style="display: block;">    
+       1. Which is the largest animal in the world?
    </div>  
-         <div id="answerButtons">
-           <button class="btn">Answer 1</button>
-           <button class="btn">Answer 2</button>
-           <button class="btn">Answer 3</button>
-           <button class="btn">Answer 4</button>
+         <div id="answerButtons" class="btnpab" style="display: block; margin-top: 20px; margin-bottom: 20px;">
+           <button class="btn">Shark</button>
+           <button class="btn" data-correct="true">Blue whale</button>
+           <button class="btn">Elephant</button>
+           <button class="btn">Giraffe</button>
 
            </div>
-           <div id="nextButton" class="next-button-style">
-            <button class="next">NEXT</button>
-          </div>
-       </div>
-   
+          
+           <div class="btn-block" >
+               <button id="startButton" class="btn-pab" style="display: none;">Get Started</button>
+               <button id="nextButton" class="btn-pab" style="display: none;">Next</button>
+               <button id="playAgainButton" class="btn-pab" style="display: none; margin-top: 30px;">Play Again</button>
+          </div>    
 
-       <!-- <div  class="second-column ">
-            <h3> SCORE-BOARD:<span id="score-board">0</span></h3>      
-         </div>  -->
-
-       </div>
+           
      </div>
 
 </main>

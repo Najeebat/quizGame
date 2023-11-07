@@ -6,63 +6,36 @@
 }
 
 
-header{
-    background-color: blue;
-    color: #fff;
+.pri-bg-col{
+    background-color: rgb(153, 205, 50) !important;
+}
+
+.pri-text-col{
+    color: rgb(153, 205, 50) !important;
+}
+
+h1{
+    margin: auto;
+    padding: 10px;
     text-align: center;
 }
 
 .question{
     border: 1px solid #30303007;
-    padding: 60px;
-    width: 80%;
+    padding: 40px;
+    margin-bottom: 20px;
+    width: 70%;
     margin: auto;
     background-color: rgb(153, 205, 50);
     color: #fff;
     border-radius: 0 50px 0 50px;
 }
-body{
-    background-color:rgba(153, 205, 50, 0.226) ;
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-   margin: auto;
-   margin-top: 50px;
-}
-
-
-
-.first-column{
-    background-color: #fff;
-    width:40%;
-    text-align: center;
-    padding: 10px;
-   border-radius: 10px 10px 10px 10px;
-}
-
-.first-column h3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom:yellowgreen 1px dotted;
-    padding: 20px;
-    color: #303030;
-}
-
-/* .second-column{
-    background-color: #fff;
-    width:20%;
-    text-align: center;
-    box-shadow: -10px -10px 10px 0px rgba(0, 0, 0, 0.089);
-    border-radius: 0 10px 10px 0;
-} */
 
 .btn{
     background-color: #fff ;
     color: #303030 !important;
     font-weight: 700;
-    width: 80%;
+    width: 70%;
     border: 1px solid white;
     box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, 0.089);
     border-radius: 5px;
@@ -71,6 +44,8 @@ body{
     text-align: center;
     cursor: pointer;
     box-shadow: #fff ;
+    margin-left: 70px;
+
 
 }
 .btn:disabled{
@@ -87,18 +62,29 @@ body{
     color: #fff !important;
 }
 
-#next-button{
-    display: none;
-    
+
+
+.index-container{
+    width: 500px;
+   margin-left: 400px;
+   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.089);
+   margin-top: 100px;
 }
-.next-button-style{
-    background-color: green;
-    color: #fff;
-    border: #fff 1px solid;
-    border-radius: 5px;
+
+.btn-pab{
+    width: 150px;
+    margin: auto;
     padding: 10px;
-    width: 130px;
-    text-align: center;
-    margin:15px auto 0;
+    color: #fff;
+    background-color: yellowgreen;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
     cursor: pointer;
+}
+
+
+.demo:hover{
+    background-color: #fff;
+    transition: all ease-in-out;
 }
